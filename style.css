@@ -618,3 +618,8 @@ p { margin: 0; }
   .nav__toggle { display: flex; }
   .footer { flex-direction: column; gap: 12px; text-align: center; }
 }
+
+/* Experience: bullet list inside a timeline entry */
+.timeline__body > p:not(.timeline__org) { color: var(--ink); font-size: 15.5px; max-width: 62ch; }
+.timeline__list { list-style: disc; margin: 10px 0 0 20px; padding: 0; max-width: 62ch; }
+.timeline__list li { color: var(--ink); font-size: 15px; line-height: 1.55; margin-bottom: 6px; }
